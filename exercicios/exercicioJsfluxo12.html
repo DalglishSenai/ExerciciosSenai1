@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+
+    <script>
+        let valor = +prompt("Digite valor da compra ")
+        let parcela = +prompt("Digite prestações de 1 a 10 x ")
+
+        while (parcela < 1 || parcela > 10) {
+            parcela = +prompt("Digite prestações de 1 a 10 x ")
+
+
+
+        }
+
+
+
+        alert("Suas parcelas são de    " + (valor / parcela));
+
+    </script>
+
+<button onclick="window.location.href='/exercicioJsfluxoBotoes.html'">Voltar</button></button>
+
+</body>
+
+</html>
